@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Notes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Request Notes</h1>
+        <form id="requestForm">
+            <div>
+                <label for="year">Select Year:</label>
+                <select id="year" required>
+                    <option value="" disabled selected>Select your year</option>
+                    <option value="1">1st Year</option>
+                    <option value="2">2nd Year</option>
+                    <option value="3">3rd Year</option>
+                    <option value="4">4th Year</option>
+                </select>
+            </div>
+            <div>
+                <label for="subject">Select Subject:</label>
+                <select id="subject" required>
+                    <option value="" disabled selected>Select your subject</option>
+                    <option value="PPS">PPS</option>
+                    <option value="BEM">BEM</option>
+                    <option value="EC">EC</option>
+                    <option value="AP">AP</option>
+                    <option value="SD">SD</option>
+                    <option value="PPS-2">PPS-2</option>
+                    <option value="BEE">BEE</option>
+                    <option value="DM">DM</option>
+                    <option value="EG">EG</option>
+                    <option value="OOPS">OOPS</option>
+                    <option value="EEA">EEA</option>
+                    <option value="DS">DS</option>
+                    <option value="DD">DD</option>
+                    <option value="DBMS">DBMS</option>
+                    <option value="WT">WT</option>
+                    <option value="OS">OS</option>
+                    <option value="DAA">DAA</option>
+                    <option value="CAALP">CAALP</option>
+                    <option value="SE">SE</option>
+                    <option value="LR">LR</option>
+                    <option value="IPR">IPR</option>
+                    <option value="CN">CN</option>
+                    <option value="AI">AI</option>
+                    <option value="SML">SML</option>
+                    <option value="SCM">SCM</option>
+                    <option value="IOT">IOT</option>
+                    <option value="DBS">DBS</option>
+                    <option value="CNS">CNS</option>
+                    <option value="STM">STM</option>
+                    <option value="ML">ML</option>
+                    <option value="MAD">MAD</option>
+                    <option value="Cloud Computing">Cloud Computing</option>
+                    <option value="BDA">BDA</option>
+                </select>
+            </div>
+            <div>
+                <label for="comments">Comments:</label>
+                <textarea id="comments" rows="4" cols="50" placeholder="Leave your comments here..."></textarea>
+            </div>
+            <button type="submit">Request</button>
+        </form>
+        <script src="request_script.js"></script>
+    </div>
+</body>
+</html>

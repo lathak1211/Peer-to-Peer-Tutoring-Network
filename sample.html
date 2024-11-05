@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peer-to-Peer Tutoring Network</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>College Peer-to-Peer Tutoring Network</h1>
+        </header>
+        <main>
+            <section class="notes-sharing">
+                <h2>Share Notes</h2>
+                <textarea id="shareNotesInput" placeholder="Share your notes here..."></textarea>
+                <button onclick="shareNotes()">Share</button>
+                <ul id="notesList"></ul>
+            </section>
+            <section class="ask-doubts">
+                <h2>Ask a Doubt</h2>
+                <textarea id="askDoubtInput" placeholder="Ask your doubt here..."></textarea>
+                <button onclick="askDoubt()">Ask</button>
+                <ul id="doubtsList"></ul>
+            </section>
+            <section class="solve-doubts">
+                <h2>Solve Doubts</h2>
+                <ul id="solveDoubtsList"></ul>
+            </section>
+            <section class="request-notes">
+                <h2>Request Notes</h2>
+                <textarea id="requestNotesInput" placeholder="Request notes here..."></textarea>
+                <button onclick="requestNotes()">Request</button>
+                <ul id="requestedNotesList"></ul>
+            </section>
+        </main>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

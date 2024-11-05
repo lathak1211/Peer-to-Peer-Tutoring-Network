@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>User Profile</h1>
+        <div id="profile-info">
+            <h2>Profile Information</h2>
+            <p><strong>Name:</strong> <span id="user-name"></span></p>
+            <p><strong>Email:</strong> <span id="user-email"></span></p>
+        </div>
+        <div id="user-doubts">
+            <h2>Your Doubts</h2>
+            <ul id="doubts-list">
+                <!-- Doubts will be inserted here -->
+            </ul>
+        </div>
+        <div id="user-notes">
+            <h2>Your Shared Files</h2>
+            <ul id="files-list">
+                <!-- Shared files will be inserted here -->
+            </ul>
+        </div>
+        <div id="doubt-actions">
+            <button onclick="location.href='ask_doubt.html'">Ask Doubt</button>
+            <button onclick="location.href='share_notes.html'">Share Notes</button>
+        </div>
+    </div>
+    <script src="profile.js"></script>
+</body>
+</html>
